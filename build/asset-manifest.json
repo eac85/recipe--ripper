@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.452ccd5d.css",
+    "main.js": "/static/js/main.97d4b0d4.js",
+    "static/js/787.3b4771cf.chunk.js": "/static/js/787.3b4771cf.chunk.js",
+    "static/media/inter.ttf": "/static/media/inter.aadb65ac45347ff46699.ttf",
+    "static/media/ComicSands-Regular.otf": "/static/media/ComicSands-Regular.ded107ac633ba5e1dfbc.otf",
+    "static/media/ComicSands-Bold.otf": "/static/media/ComicSands-Bold.8ed68cc80bc85531f1ea.otf",
+    "index.html": "/index.html",
+    "main.452ccd5d.css.map": "/static/css/main.452ccd5d.css.map",
+    "main.97d4b0d4.js.map": "/static/js/main.97d4b0d4.js.map",
+    "787.3b4771cf.chunk.js.map": "/static/js/787.3b4771cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.452ccd5d.css",
+    "static/js/main.97d4b0d4.js"
+  ]
+}

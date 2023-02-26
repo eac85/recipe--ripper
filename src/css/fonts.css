@@ -1,0 +1,14 @@
+@font-face{
+    font-family: ComicSandsBold;
+    src: url("../fonts/ComicSands-Bold.otf");
+}
+
+@font-face{
+    font-family: ComicSandsReg;
+    src: url("../fonts/ComicSands-Regular.otf");
+}
+
+@font-face{
+    font-family: Inter;
+    src: url("../fonts/inter.ttf");
+}

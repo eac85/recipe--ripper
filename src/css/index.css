@@ -1,0 +1,134 @@
+body {
+	text-align: center;
+  background-color: whitesmoke;
+  font-size: max(2.2vw, 5px);
+}
+
+textarea {
+  height: 45vh;
+}
+
+img {
+  padding-bottom: 60px;
+}
+
+h1 {
+	font-family: Inter;
+	color: #33A1FF;
+  font-size: 100px;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     7px 7px 0 #000;
+}
+
+h2 {
+  font-family: Inter;
+  color: #33A1FF;
+  font-size: 100px;
+  writing-mode: vertical-rl;
+  transform:scale(-1);
+}
+
+p {
+	background-color: white;
+	margin: 70px;
+  font-family: Inter;
+}
+
+label {
+  font-family: Inter;
+  font-weight: bold;
+  color: #33A1FF;
+  font-size: 4vh;
+  writing-mode: vertical-rl;
+  transform:scale(-1);
+}
+
+#header {
+  height: 50px;
+}
+
+.rotateimg180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* CSS */
+.button-56 {
+  align-items: center;
+  background-color: #33A1FF;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+
+
+#textareas{
+  display: none;
+}
+
+#button2{
+  display: none;
+}
+
+#button3{
+  display: none;
+}
+
+
+
